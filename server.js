@@ -6,7 +6,7 @@ const favicon = require('serve-favicon')
 //environment variables
 require('dotenv').config();
 const dbUrl = process.env.DB_URL;
-const port = process.env.POR;
+const port = process.env.PORT;
 
 
 // create express app
